@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+body {
+	text-align: center;
+	background-image: url("http://www.thecommunitypicnic.com/wp-content/uploads/2015/01/lawn.jpg");
+}
+h1 {
+	color: rgb(55, 228, 228);
+	font-weight: 900;
+	font-size: 300%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+   	color: rgb(55, 228, 228);
+	font-weight: 900;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+form.items { 
+	background: rgba(34, 205, 5, 1);
+	margin-left: 20px;
+	width:65%;
+	-webkit-box-shadow: inset 11px 9px 48px 18px rgba(112,242,36,0.65);
+	-moz-box-shadow: inset 11px 9px 48px 18px rgba(112,242,36,0.65);
+	box-shadow: inset 11px 9px 48px 18px rgba(190, 45, 45, 1);
+}
+form.logmeout {
+	position:absolute;
+   top:0;
+   left:0;
+}
+form.manageCustomers {
+	position:absolute;
+	top:0;
+	right:0;
+}
+tr {
+	color: white;
+	font-size: 150%;
+	font-weight: 900;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.passDue {
+	position:absolute;
+	top: 30.2%;
+	width:30%;
+	left:69%;
+	font-size: 12px;
+	background: rgba(34, 205, 5, 1);
+	-webkit-box-shadow: inset 11px 9px 48px 18px rgba(112,242,36,0.65);
+	-moz-box-shadow: inset 11px 9px 48px 18px rgba(112,242,36,0.65);
+	box-shadow: inset 11px 9px 48px 18px rgba(131, 2, 2, 1);
+}
+.passDue tr {
+	color: red;
+	
+}
+input, button, select {
+   text-align: center;
+   border-top: 1px solid #1df044;
+   background: #034f11;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1df044), to(#034f11));
+   background: -webkit-linear-gradient(top, #1df044, #034f11);
+   background: -moz-linear-gradient(top, #1df044, #034f11);
+   background: -ms-linear-gradient(top, #1df044, #034f11);
+   background: -o-linear-gradient(top, #1df044, #034f11);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+input:hover, button:hover, select:hover {
+   border-top-color: #355c08;
+   background: #355c08;
+   color: #ccc;
+}
+input:active, button:active, select:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+}
+}
+}
+  background: #1b435e;
+}
+}
+}
+}

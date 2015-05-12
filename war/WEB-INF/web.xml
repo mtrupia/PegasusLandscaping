@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+  
+
+  <!-- Servlets --><servlet>
+  	<servlet-name>MainServlet</servlet-name>
+  	<servlet-class>Personal_Project.servlet.MainServlet</servlet-class>
+</servlet>
+	<servlet>
+		<servlet-name>ManageServlet</servlet-name>
+		<servlet-class>Personal_Project.servlet.ManageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StatementServlet</servlet-name>
+		<servlet-class>Personal_Project.servlet.StatementServlet</servlet-class>
+	</servlet>
+	<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Personal_Project.servlet.LoginServlet</servlet-class>
+  </servlet>
+	
+
+	<!-- Servlet mappings -->
+	<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManageServlet</servlet-name>
+		<url-pattern>/Manage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StatementServlet</servlet-name>
+		<url-pattern>/Statement</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/Main</url-pattern>
+	</servlet-mapping>
+</web-app>

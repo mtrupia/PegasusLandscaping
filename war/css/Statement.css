@@ -1,0 +1,63 @@
+h1 {	
+	text-align: center;
+	font-weight: 900;
+	font-size: 200%;
+}
+.customerHeading {
+	position:fixed;
+	top: 70px;
+	left: 20px;
+	text-align:center;
+	width: 20%;
+	border: 1px solid black;
+}
+.date {
+	text-align: center;
+	line-height: 55px;
+	position:fixed;
+	top: 70px;
+	right:2%;
+	width: 250px;
+	font-size: 120%;
+	font-weight: 900;
+	border: 1px solid black;
+}
+.totally {
+	position:fixed;
+	top: 16%;
+	width:250px;
+	left:43%;
+}
+.totally p {
+	border: 1px solid black;
+	width:150px;
+	padding:5px;
+	text-align:right;
+}
+.payments {
+	position:fixed;
+	width:40%;
+	top:25%;
+	left:8%;
+}
+.services {
+	position:fixed;
+	width:40%;
+	top:25%;
+	right:8%;
+}
+td {
+	font-size:18px;
+}
+.services table {
+	border: 1px solid black;
+}
+.payments table {
+	border: 1px solid black;
+}
+.services tr, td {
+	padding: 5px;
+}
+}dding: 5px;
+}
+}}}
